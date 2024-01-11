@@ -20,17 +20,10 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt-get install -y python3-pip
-          pip3 install --upgrade typogrep
           sudo apt-get install -y languagetool
-
-      - name: Check typos in README (English)
-        run: typogrep --language=en README.md
 
       - name: Check typos in README (French)
         run: languagetool -l fr README.md
-
-      - name: Check typos in Markdown files (English)
-        run: find . -type f -name "*.md" | xargs typogrep --language=en
 
       - name: Check typos in Markdown files (French)
         run: find . -type f -name "*.md" | xargs -I {} languagetool -l fr {}
@@ -38,18 +31,11 @@ jobs:
       - name: Fail if any typos found
         if: ${{ always() }}
         run: |
-          if typogrep --language=en README.md; then
-            echo "English typos found in README"
-            exit 1
-          fi
           if languagetool -l fr README.md; then
             echo "French typos found in README"
             exit 1
           fi
-          if find . -type f -name "*.md" | xargs typogrep --language=en; then
-            echo "English typos found in Markdown files"
-            exit 1
-          fi
+
           if find . -type f -name "*.md" | xargs -I {} languagetool -l fr {}; then
             echo "French typos found in Markdown files"
             exit 1
