@@ -1,0 +1,53 @@
+name: Check typos
+
+on:
+  push:
+    branches:
+      - main
+      - readme-setup
+  pull_request:
+    branches:
+      - main
+      - readme-setup
+
+jobs:
+  typos:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get install -y python3-pip
+          pip3 install --upgrade typogrep
+
+      - name: Check typos in README
+        run: |
+          typogrep --language=fr README.md
+          typogrep --language=en README.md
+
+      - name: Check typos in Markdown files
+        run: |
+          find . -type f -name "*.md" | xargs typogrep --language=fr
+          find . -type f -name "*.md" | xargs typogrep --language=en
+
+      - name: Fail if any typos found
+        if: ${{ always() }}
+        run: |
+          if [[ $(typogrep --language=fr README.md) ]]; then
+            echo "Typos found in README in French"
+            exit 1
+          fi
+          if [[ $(typogrep --language=en README.md) ]]; then
+            echo "Typos found in README in English"
+            exit 1
+          fi
+          if [[ $(find . -type f -name "*.md" | xargs typogrep --language=fr) ]]; then
+            echo "Typos found in Markdown files in French"
+            exit 1
+          fi
+          if [[ $(find . -type f -name "*.md" | xargs typogrep --language=en) ]]; then
+            echo "Typos found in Markdown files in English"
+            exit 1
+          fi
