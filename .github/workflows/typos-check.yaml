@@ -1,4 +1,4 @@
-name: Check typos
+name: Check Typos
 
 on:
   push:
@@ -8,46 +8,49 @@ on:
   pull_request:
     branches:
       - main
-      - readme-setup
 
 jobs:
   typos:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
 
       - name: Install dependencies
         run: |
           sudo apt-get install -y python3-pip
           pip3 install --upgrade typogrep
+          sudo apt-get install -y languagetool
 
-      - name: Check typos in README
-        run: |
-          typogrep --language=fr README.md
-          typogrep --language=en README.md
+      - name: Check typos in README (English)
+        run: typogrep --language=en README.md
 
-      - name: Check typos in Markdown files
-        run: |
-          find . -type f -name "*.md" | xargs typogrep --language=fr
-          find . -type f -name "*.md" | xargs typogrep --language=en
+      - name: Check typos in README (French)
+        run: languagetool -l fr README.md
+
+      - name: Check typos in Markdown files (English)
+        run: find . -type f -name "*.md" | xargs typogrep --language=en
+
+      - name: Check typos in Markdown files (French)
+        run: find . -type f -name "*.md" | xargs -I {} languagetool -l fr {}
 
       - name: Fail if any typos found
         if: ${{ always() }}
         run: |
-          if [[ $(typogrep --language=fr README.md) ]]; then
-            echo "Typos found in README in French"
+          if typogrep --language=en README.md; then
+            echo "English typos found in README"
             exit 1
           fi
-          if [[ $(typogrep --language=en README.md) ]]; then
-            echo "Typos found in README in English"
+          if languagetool -l fr README.md; then
+            echo "French typos found in README"
             exit 1
           fi
-          if [[ $(find . -type f -name "*.md" | xargs typogrep --language=fr) ]]; then
-            echo "Typos found in Markdown files in French"
+          if find . -type f -name "*.md" | xargs typogrep --language=en; then
+            echo "English typos found in Markdown files"
             exit 1
           fi
-          if [[ $(find . -type f -name "*.md" | xargs typogrep --language=en) ]]; then
-            echo "Typos found in Markdown files in English"
+          if find . -type f -name "*.md" | xargs -I {} languagetool -l fr {}; then
+            echo "French typos found in Markdown files"
             exit 1
           fi
