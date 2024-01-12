@@ -95,6 +95,14 @@ jobs:
         id: spelling
         uses: check-spelling/check-spelling@main
         with:
+          extra_dictionaries: cspell:software-terms/dict/softwareTerms.txt
+            cspell:fr_FR/src/hunspell-french-dictionaries-v7.0/fr-classique.dic
+            cspell:fr_FR/src/hunspell-french-dictionaries-v7.0/fr-reforme1990.dic
+            cspell:fr_FR/src/hunspell-french-dictionaries-v7.0/fr-toutesvariantes.dic
+            cspell:fr_FR_90/src/hunspell-french-dictionaries-v7.0/fr-classique.dic
+            cspell:fr_FR_90/src/hunspell-french-dictionaries-v7.0/fr-reforme1990.dic
+            cspell:fr_FR_90/src/hunspell-french-dictionaries-v7.0/fr-toutesvariantes.dic
+
           suppress_push_for_open_pull_request: ${{ github.actor != 'dependabot[bot]' && 1 }}
           checkout: true
           check_file_names: 1
@@ -106,7 +114,6 @@ jobs:
           experimental_apply_changes_via_bot: 1
           use_sarif: ${{ (!github.event.pull_request || (github.event.pull_request.head.repo.full_name == github.repository)) && 1 }}
           extra_dictionary_limit: 20
-          extra_dictionaries: cspell:software-terms/dict/softwareTerms.txt
 
   comment-push:
     name: Report (Push)

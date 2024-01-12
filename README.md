@@ -1,3 +1,3 @@
-# Bitcoind & Lightning Network `Francophone` Ressources HUB
+# Bitcoin & Lightning Network `Francophone` Ressources HUB
 
 Centre éducatif.
