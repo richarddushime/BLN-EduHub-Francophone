@@ -1,2 +1,3 @@
-# BLN-EduHub-Francophone
-Centre éducatif Bitcoin et Lightning Network
+# Bitcoin & Lightning Network `Francophone` Ressources HUB
+
+Centre éducatif.
