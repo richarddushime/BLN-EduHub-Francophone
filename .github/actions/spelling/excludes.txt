@@ -1,1 +1,2 @@
 ^\.github/workflows/
+^\Q.github/actions/spelling/excludes.txt\E$
