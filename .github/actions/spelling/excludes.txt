@@ -1,2 +1,4 @@
+^\.github/
 ^\.github/workflows/
 ^\Q.github/actions/spelling/excludes.txt\E$
+^\Q.gitignore\E$

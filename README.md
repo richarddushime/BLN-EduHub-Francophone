@@ -1,5 +1,6 @@
 # Bitcoin & Lightning Network `Francophone` Ressources HUB
 
+![banner](assets/header-cover.png)
 
 Available in 2 Versions || [English](https://github.com/richarddushime/BLN-EduHub-Francophone/blob/main/README_En.md) and [French]() ||
 
