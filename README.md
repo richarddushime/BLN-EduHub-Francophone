@@ -1,3 +1,1 @@
-# Bitcoin & Lightning Network `Francophone` Ressources HUB
-
-Centre éducatif.
+![banner](assets/header-cover.png)
