@@ -59,8 +59,7 @@ name: Check Spelling
 on:
   push:
     branches:
-      - main
-      - readme-setup
+      - "**"
     tags-ignore:
       - "**"
   pull_request_target:
