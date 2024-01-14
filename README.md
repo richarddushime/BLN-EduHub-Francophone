@@ -1,7 +1,4 @@
-# Bitcoin & Lightning Network `Francophone` Ressources HUB
-
-Centre éducatif.
-
+![banner](assets/header-cover.png)
 
 ## Books
 
@@ -25,5 +22,3 @@ Centre éducatif.
 
 ## Recent Contributions Map
 ![Alt](https://repobeats.axiom.co/api/embed/aa9ae67de6a5ef99ac1513cf90fd40ac2d16ebf8.svg "analytics image")
-
-![banner](assets/header-cover.png)
