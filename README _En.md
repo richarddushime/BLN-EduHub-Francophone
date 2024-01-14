@@ -36,3 +36,9 @@ Welcome and join us in making a meaningful contribution! Click [Contributing Gui
 
 
 > We express our sincere gratitude to [`Btrust Builders`](https://builders.btrust.tech/) for their unwavering support and commendable efforts in advancing the Bitcoin space within the African continent. "Btrust Builders" stands as a pioneering program dedicated to nurturing the next wave of Bitcoin and Lightning Network developers across Africa. The initiative is driven by the aim to discover, enhance skills, and connect African developers with Bitcoin companies worldwide, contributing significantly to the growth and expertise within the global Bitcoin ecosystem.
+
+
+## Recent Contributions Map
+![Alt](https://repobeats.axiom.co/api/embed/aa9ae67de6a5ef99ac1513cf90fd40ac2d16ebf8.svg "analytics image")
+
+![banner](assets/header-cover.png)

@@ -34,3 +34,8 @@ En se concentrant sur l’éducation et le renforcement de la communauté, cette
 Bienvenue et rejoignez-nous pour apporter une contribution significative ! Cliquez sur [Directives de contribution](https://github.com/richarddushime/BLN-EduHub-Francophone/blob/main/CONTRIBUTING.md) pour découvrir nos directives de contribution. Nous apprécions votre contribution et sommes impatients de collaborer avec vous.
 
 > Nous exprimons notre sincère gratitude à [`Btrust Builders`](https://builders.btrust.tech/) pour leur soutien indéfectible et leurs efforts louables visant à faire progresser l’espace Bitcoin sur le continent africain. `« Btrust Builders »` est un programme pionnier dédié à nourrir la prochaine vague de développeurs Bitcoin et Lightning Network à travers l'Afrique. L'initiative est motivée par l'objectif de découvrir, d'améliorer les compétences et de connecter les développeurs africains avec les sociétés Bitcoin du monde entier, contribuant ainsi de manière significative à la croissance et à l'expertise au sein de l'écosystème mondial Bitcoin.
+
+## Carte des contributions récentes
+![Alt](https://repobeats.axiom.co/api/embed/aa9ae67de6a5ef99ac1513cf90fd40ac2d16ebf8.svg "analytics image")
+
+![banner](assets/header-cover.png)
