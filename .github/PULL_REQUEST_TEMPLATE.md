@@ -5,8 +5,6 @@
 
 ## Description
 
-🚀 **Décrivez brièvement votre contribution et son impact**
-
 
 ---
 
