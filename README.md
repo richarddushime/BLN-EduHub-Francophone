@@ -1,7 +1,7 @@
 # Bitcoin & Lightning Network `Francophone` Ressources HUB
 
 
-Available in 2 Versions || [English](https://github.com/richarddushime/BLN-EduHub-Francophone/blob/main/README_En.md) and [French]() ||
+Disponible en 2 versions || [Anglais](https://github.com/richarddushime/BLN-EduHub-Francophone/blob/main/README_En.md) and [Francais]() ||
 
 ## Idée:
 Centre éducatif francophone Bitcoin & Lightning Network
@@ -13,7 +13,6 @@ Les communautés francophones manquent de ressources suffisantes et de communaut
 ## Solution:
 
 Créer une plateforme éducative dédiée, exclusivement conçue pour les individus des communautés francophones qui s'intéressent à Bitcoin et au Lightning Network. L'objectif principal est d'offrir un contenu éducatif facile d'accès et simplifié, afin de favoriser la compréhension et d'encourager l'adoption à grande échelle. En outre, un répertoire complet de ressources disponibles en français, comprenant des articles, des revues, des livres, etc. est mis à disposition. Cette initiative a pour but de servir de source d'orientation et de conseils pour tous les membres de la communauté francophone de Bitcoin, en fournissant un centre centralisé d'informations et de soutien précieux.
-
 
 ## Principales caractéristiques:
 

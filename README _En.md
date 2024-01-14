@@ -1,5 +1,6 @@
 # Bitcoin & Lightning Network `Francophone` Ressources HUB
 
+![banner](assets/header-cover.png)
 
 Available in 2 Versions || [English]() and [French](https://github.com/richarddushime/BLN-EduHub-Francophone/blob/main/README.md) ||
 
@@ -16,10 +17,10 @@ Create a dedicated educational platform exclusively designed for individuals in 
 
 1. French Content Hub:  Create a centralized  Repository with comprehensive educational content, tutorials,Webinars and Workshops and articles in French. Cover topics ranging from the basics of Bitcoin and Lightning Network to more advanced concepts.
 
-3. Community Forums: Develop an online forum for French speakers to discuss, share experiences, and ask questions. This community-driven platform can serve as a space for networking and mutual support.
+2. Community Forums: Develop an online forum for French speakers to discuss, share experiences, and ask questions. This community-driven platform can serve as a space for networking and mutual support.
 
 
-5. Translation Services:  Provide translations of key Bitcoin and Lightning resources, and documentations into French to bridge language barriers and make knowledge more accessible.
+3. Translation Services:  Provide translations of key Bitcoin and Lightning resources, and documentations into French to bridge language barriers and make knowledge more accessible.
 
 
 ## Why its Important:
@@ -32,5 +33,6 @@ By focusing on education and community building, We aim to empower French speake
 
 
 Welcome and join us in making a meaningful contribution! Click [Contributing Guidelines](https://github.com/richarddushime/BLN-EduHub-Francophone/blob/main/CONTRIBUTING.md) to explore our guidelines for contributing. We value your input and look forward to collaborating with you.
+
 
 > We express our sincere gratitude to [`Btrust Builders`](https://builders.btrust.tech/) for their unwavering support and commendable efforts in advancing the Bitcoin space within the African continent. "Btrust Builders" stands as a pioneering program dedicated to nurturing the next wave of Bitcoin and Lightning Network developers across Africa. The initiative is driven by the aim to discover, enhance skills, and connect African developers with Bitcoin companies worldwide, contributing significantly to the growth and expertise within the global Bitcoin ecosystem.
