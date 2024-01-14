@@ -1,8 +1,6 @@
-# Bitcoin & Lightning Network `Francophone` Ressources HUB
+## ![banner](assets/header-cover.png)
 
-![banner](assets/header-cover.png)
-
-Disponible en 2 versions || [Anglais](https://github.com/richarddushime/BLN-EduHub-Francophone/blob/main/README_En.md) and [Francais]() ||
+Disponible en 2 versions || [Anglais](https://github.com/richarddushime/BLN-EduHub-Francophone/blob/main/README-en.md) et [Francais](https://github.com/richarddushime/BLN-EduHub-Francophone/blob/main/README.md) ||
 
 ## Idée:
 Centre éducatif francophone Bitcoin & Lightning Network

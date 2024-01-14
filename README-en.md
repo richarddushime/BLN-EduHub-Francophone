@@ -2,7 +2,7 @@
 
 ![banner](assets/header-cover.png)
 
-Available in 2 Versions || [English]() and [French](https://github.com/richarddushime/BLN-EduHub-Francophone/blob/main/README.md) ||
+Available in 2 Versions || [English](https://github.com/richarddushime/BLN-EduHub-Francophone/blob/main/README-en.md) and [French](https://github.com/richarddushime/BLN-EduHub-Francophone/blob/main/README.md) ||
 
 ## Idea: 
 Francophone Bitcoin & Lightning Network Educational Hub
