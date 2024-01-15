@@ -71,12 +71,13 @@ There is different ways you can contribute  , You can add
 
 ## Setting-up The Project
 
-2. Fork and Clone the Repository 
+1. Fork and Clone the Repository 
       ```
       git clone https://github.com/<username>/BLN-EduHub-Francophone
       ```
-3. Add your Contributions 
-4. Upload or Push the Changes 
+2. Add your Contributions 
+
+3. Upload or Push the Changes 
 
 
 ## Thankyou
