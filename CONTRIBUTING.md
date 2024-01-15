@@ -37,7 +37,7 @@ Il existe différentes manières de contribuer ,Vous pouvez ajouter :
 
 2. Fork et Clone le Référentiel
       ```
-      git clone https://github.com/[ your username GitHub ]/BLN-EduHub-Francophone
+      git clone https://github.com/<username>/BLN-EduHub-Francophone
       ```
 3. Ajoutez vos contributions
 
