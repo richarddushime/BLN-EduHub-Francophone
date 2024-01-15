@@ -72,7 +72,6 @@ There is different ways you can contribute  , You can add
 ## Recent Contributions Map
 ![Alt](https://repobeats.axiom.co/api/embed/aa9ae67de6a5ef99ac1513cf90fd40ac2d16ebf8.svg "analytics image")
 
-1. Github Account 
 
     Create if you do not have one see [here](https://github.com/)
 
