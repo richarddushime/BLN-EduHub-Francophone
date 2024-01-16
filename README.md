@@ -1,6 +1,6 @@
 ## ![banner](assets/header-cover.png)
 
-Disponible en 2 versions || [Anglais](https://github.com/richarddushime/BLN-EduHub-Francophone/blob/main/README-en.md) et [Francais](https://github.com/richarddushime/BLN-EduHub-Francophone/blob/main/README.md) ||
+#### Available in 2 Versions || [English](https://github.com/richarddushime/BLN-EduHub-Francophone/blob/main/README-en.md) and [French](https://github.com/richarddushime/BLN-EduHub-Francophone/blob/main/README.md) ||
 
 ## Idée:
 Centre éducatif francophone Bitcoin & Lightning Network
