@@ -59,12 +59,12 @@ name: Check Spelling
 on:
   push:
     branches:
-      - "**"
+      - typos-check
     tags-ignore:
       - "**"
   pull_request_target:
     branches:
-      - "**"
+      - typos-check
     types:
       - "opened"
       - "reopened"
